@@ -15,6 +15,7 @@ public class Alphabetize
         StringTwo = in.nextLine();
         System.out.print("Enter the 3rd string: ");
         StringThree = in.nextLine();
+
         if(StringOne.toLowerCase().compareTo(StringTwo.toLowerCase()) < 0 &&
                 StringTwo.toLowerCase().compareTo(StringThree.toLowerCase()) < 0)
             System.out.println("Strings one, two and three that you entered are in alphabetical order");
