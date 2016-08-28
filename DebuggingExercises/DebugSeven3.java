@@ -11,6 +11,6 @@ public class DebugSeven3
       System.out.println("char.At(5) is: " + quote.charAt(5));
       System.out.println("endsWith(\"daughter\") is: " + quote.endsWith("daughter"));
       System.out.println("endsWith(\"son\") is: " + quote.endsWith("son"));
-      System.out.println("replace('e', '*') is: " + quote.replace('e', '*'));
+      System.out.println("replace('e', '*') is: " + quote.replace('e', 'M'));
    }
 }
